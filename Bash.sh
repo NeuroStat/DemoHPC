@@ -16,7 +16,7 @@ vsc=
 #----------------------------------------------------#
 
 
-srcdir=/user/home/gent/vsc407/vsc40728/vsc"$vsc"
+srcdir=/user/home/gent/vsc407/vsc"$vsc"
 cd $srcdir
 
 Rscript MainR.R ${PBS_ARRAYID} $vsc
