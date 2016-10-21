@@ -47,6 +47,8 @@ qstat -ta
 ```
 
 ## Main Bash file
+We first consider the [bash](https://github.com/NeuroStat/DemoHPC/blob/master/Bash.sh) file. 
+
 The first lines in this file are always needed:
 
 ```bash
