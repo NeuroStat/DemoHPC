@@ -73,7 +73,7 @@ The commands after _#PBS_ are options:
 
 > Jobs with a walltime larger than 12:00:00 will end up in a longer waiting queue, than jobs with a shorter walltime!
 
-Then you will see a line with the modules that are needed
+Then you will see a line with the modules (think of pieces of software) that are needed
 ```bash
 module load R
 ```
