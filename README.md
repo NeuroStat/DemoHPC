@@ -83,7 +83,7 @@ The main command is:
 ```bash
 Rscript MainR.R ${PBS_ARRAYID} $vsc
 ```
-This starts an R script called MainR.R. It has two arguments. The first `<${PBS_ARRAYID}>` is an ID obtained by executing `<qsub -t 1-8>`. It means that it will start 8 times the MainR.R script, with each time a number ranging from 1 to 8. The second argument is the _vsc_ number. 
+This starts an R script called MainR.R. It has two arguments. The first `${PBS_ARRAYID}` is an ID obtained by executing `<qsub -t 1-8>`. It means that it will start 8 times the MainR.R script, with each time a number ranging from 1 to 8. The second argument is the _vsc_ number. 
 
 ## R script
 When going to your **R** script, it is important to utilize this ID. As shown below, we get the ID and assign it to _K_:
