@@ -71,6 +71,8 @@ The commands after _#PBS_ are options:
 * _-l_ the expected runtime (walltime) of your script
   * Important to have a decent walltime, any job exceeding this will be terminated!!!
 
+> Jobs with a walltime larger than 12:00:00 will end up in a longer waiting queue, than jobs with a shorter walltime!
+
 Then you will see a line with the modules that are needed
 ```bash
 module load R
